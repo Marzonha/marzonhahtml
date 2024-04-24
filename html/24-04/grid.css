@@ -1,0 +1,26 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 2px solid coral;
+}
+.wrapper > div{
+    border: 2px solid rgb(242, 167, 102);
+    border-radius: 5px;
+    background-color: rgb(255, 206, 142);
+    padding: 1em;
+    color: crimson;
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#titulododia{
+    font-family: cursive;
+
+}

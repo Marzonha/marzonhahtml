@@ -1,0 +1,54 @@
+.cima{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.cima .box1{
+    width: 1210px;
+    height: 80px;
+    background-color: chartreuse;
+}
+
+.meio{
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+    justify-content: center;
+
+}
+.meio .box1{
+    width: 500px;
+    height: 580px;
+    background-color: cadetblue;
+    
+    
+}
+.meio .pai_meio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.meio .pai_meio .box2{
+    margin-top: 10px;
+    width: 700px;
+    height: 200px;
+    background-color: purple;
+}
+.inline{
+    display: inline-flex;
+    padding-top: 10px;
+    gap: 30px;
+    justify-content: space-around;
+}
+.meio  .pai_meio .inline .box3{
+    margin-top: 10px;
+    width: 350px;
+    height: 100px;
+    background-color: purple;
+}
+.meio  .pai_meio .inline .box4{
+    margin-top: 10px;
+    width: 310px;
+    height: 100px;
+    background-color: rgb(7, 255, 164);
+}

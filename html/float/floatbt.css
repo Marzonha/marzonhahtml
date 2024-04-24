@@ -1,0 +1,41 @@
+body{
+    height: 500vh;
+}
+img{
+   height:860px ;
+    width: 1350px;
+   margin-top: 20px;
+}
+
+.botao{
+    position: fixed;
+    left: 1280px;
+    top: 550px;
+}
+.img2{
+    height: 50px;
+    width: 70px;
+
+
+}
+#header{
+    background-color: rgb(0, 198, 126);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+#texto{
+   
+    font-family:cursive;
+    font-size: 18px;
+}
+#footer{
+  background-color: chartreuse;
+  width: auto;
+  height: 500px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center; 
+  padding: 20px;
+}

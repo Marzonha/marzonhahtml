@@ -1,0 +1,67 @@
+/*.layout{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+}
+*/
+.cima{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.cima .box1{
+    width: 700px;
+    height: 80px;
+    background-color: chartreuse;
+}
+.cima .box2{
+    width: 500px;
+    height: 80px;
+    background-color: rgb(123, 195, 51);
+}
+.meio{
+    display: flex;
+    padding-top: 10px;
+    gap: 30px;
+    justify-content: center;
+
+}
+.meio .box1{
+    width: 500px;
+    height: 450px;
+    background-color: cadetblue;
+
+
+}
+.meio .pai_meio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.meio .pai_meio .box2{
+margin-top: 10px;
+width: 700px;
+height: 200px;
+background-color: purple;
+}
+.bottom{
+padding-top: 10px;
+display: flex;
+justify-content: center;
+gap: 30px;
+
+
+}
+.bottom .box1{
+    background-color: cornflowerblue;
+    display: flex;
+    width: 366px;
+    height: 200px;
+
+}
+.bottom .box2 {
+    width: 440px;
+    height: 200px;
+    background-color: blue;
+}
